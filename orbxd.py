@@ -90,11 +90,11 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent',"NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+")]
 
 banner = ("""\033[1;37m
-   ______\033[1;91m   __ __ \033[1;37m            __  
-  / ____/ \033[1;91m / // /  \033[1;37m  _____   / /__
- / /      \033[1;91m/ // /_ \033[1;37m  / ___/  / //_/
-/ /___   \033[1;91m/__  __/\033[1;37m  / /__   / ,< Au \033[1;36m• \033[1;32mDekura-X.\033[1;37m
-\____/   \033[1;91m  /_/   \033[1;37m  \___/  /_/|_|\n
+   ______\033[1;91m   __ __ \033[1;37m          __  
+  / ____/ \033[1;91m / // /  \033[1;37m _____  / /__
+ / /      \033[1;91m/ // /_ \033[1;37m / ___/ / //_/
+/ /___   \033[1;91m/__  __/\033[1;37m / /__  / ,< Au \033[1;36m• \033[1;32mBINTANG-XD.\033[1;37m
+\____/   \033[1;91m  /_/   \033[1;37m \___/ /_/|_|\n
   \033[1;33m•\033[1;91m•\033[1;37m New Tools Hack Facebook Random \033[1;33m•\033[1;91m•\033[1;37m
  \033[1;33m•\033[1;91m•\033[1;37m Gunakan Akun Tumbal Untuk Login! \033[1;33m•\033[1;91m•\033[1;37m""")
 
@@ -102,7 +102,7 @@ logo = """\033[1;37m
    ______\033[1;91m   __ __ \033[1;37m            __  
   / ____/ \033[1;91m / // /  \033[1;37m  _____   / /__
  / /      \033[1;91m/ // /_ \033[1;37m  / ___/  / //_/
-/ /___   \033[1;91m/__  __/\033[1;37m  / /__   / ,< Au \033[1;36m• \033[1;32mDekura-X.\033[1;37m
+/ /___   \033[1;91m/__  __/\033[1;37m  / /__   / ,< Au \033[1;36m• \033[1;32mBINTANG-XD.\033[1;37m
 \____/   \033[1;91m  /_/   \033[1;37m  \___/  /_/|_|\n"""
 
 
@@ -127,11 +127,11 @@ def login():
     os.system('clear')
     print banner
     print("\033[0;96m"+50*"-")
-    print ' \x1b[0;97m[\x1b[0;96m1\x1b[0;97m] Login via Facebook (\033[1;36mRawan CheckPoint\033[1;37m)'
-    print ' \x1b[0;97m[\x1b[0;96m2\x1b[0;97m] Login via token  (\033[1;36mRecommended\033[1;37m)'
-    print ' \x1b[0;97m[\x1b[0;96m3\x1b[0;97m] Login via Cokies (\033[1;36mRecommended\033[1;37m)'
-    print ' \x1b[0;97m[\x1b[0;96m4\x1b[0;97m] Check Video Cara Ambil Token/Cookie fb '
-    print ' \x1b[0;97m[\x1b[0;96m0\x1b[0;97m] Exite Programs'
+    print ' \x1b[0;97m[\x1b[0;96m01\x1b[0;97m] Login via Facebook (\033[1;36mRawan CheckPoint\033[1;37m)'
+    print ' \x1b[0;97m[\x1b[0;96m02\x1b[0;97m] Login via token  (\033[1;36mRecommended\033[1;37m)'
+    print ' \x1b[0;97m[\x1b[0;96m03\x1b[0;97m] Login via Cokies (\033[1;36mRecommended\033[1;37m)'
+    print ' \x1b[0;97m[\x1b[0;96m04\x1b[0;97m] Check Video Cara Ambil Token/Cookie fb '
+    print ' \x1b[0;97m[\x1b[0;96m00\x1b[0;97m] Keluar'
     sek = raw_input('\n \x1b[0;97m[\x1b[0;96m•\x1b[0;97m] Choose : ')
     if sek=="":
         print("\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] Keyword Salah").format(R,N);login()
@@ -357,7 +357,7 @@ def menu():
   print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Your Name    : \033[1;32m"+nama)
   print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Your ID      : \033[1;32m"+id)
   print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Tgl Login Sc : \033[1;32m"+tanggal)
-  print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Version      : \033[1;32mElite 1.0")
+  print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Version      : \033[1;32mCr4ck 1.5")
   print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Expired      : \033[1;32m-")
   print("\033[0;96m"+50*"-")
   print("\033[0;96m\033[0;97m [\033[1;36m01\033[1;37m] Crack ID Dari Friendlist/Public")
