@@ -368,7 +368,7 @@ def menu():
   print("\033[0;96m\033[0;97m [\033[1;36m06\033[1;37m] Crack Dari Number Phone")
   print("\033[0;96m\033[0;97m [\033[1;36m07\033[1;37m] Check Hasil Crack")
   print("\033[0;96m\033[0;97m [\033[1;36m08\033[1;37m] Check opsi CheckPoint ")
-  print("\033[0;96m\033[0;97m [\033[1;36m09\033[1;37m] %sGanti User agent%s  "%(p,o,p))
+  print("\033[0;96m\033[0;97m [\033[1;36m09\033[1;37m] %s%sGanti User agent%s  "%(p,o,p))
   print("\033[0;96m\033[0;97m [\033[1;36m00\033[1;37m] \033[1;31mLogout\033[1;31m")
   print ""
   r=raw_input("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Choose: ")
