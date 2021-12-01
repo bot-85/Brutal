@@ -14,7 +14,7 @@
 
 import requests,bs4,sys,os,subprocess,getpass,hashlib
 import random,time,re,json
-import emailerendem,calendar,nande,orbxd
+import emailerendem,calendar,nande,Brutal
 from datetime import datetime
 from datetime import date 
 from concurrent.futures import ThreadPoolExecutor
