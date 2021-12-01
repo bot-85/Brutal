@@ -90,20 +90,20 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent',"NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+")]
 
 banner = ("""\033[1;37m
-   ______\033[1;91m   __ __ \033[1;37m            __  
-  / ____/ \033[1;91m / // /  \033[1;37m  _____   / /__
- / /      \033[1;91m/ // /_ \033[1;37m  / ___/  / //_/
-/ /___   \033[1;91m/__  __/\033[1;37m  / /__   / ,< Au \033[1;36m• \033[1;32mNdrii Tzy\033[1;37m
-\____/   \033[1;91m  /_/   \033[1;37m  \___/  /_/|_|\n
+   ______  __ __            __  
+  / ____/ / // /   _____  / /__
+ / /     / // /   / ___/ / //_/
+/ /___  /__  __/ / /__  / ,< Au \033[1;36m• \033[1;32mNdrii Tzy\033[1;37m
+\____/    /_/    \___/ /_/|_|\n
   \033[1;33m•\033[1;91m•\033[1;37m New Tools Hack Facebook Random \033[1;33m•\033[1;91m•\033[1;37m
  \033[1;33m•\033[1;91m•\033[1;37m Gunakan Akun Tumbal Untuk Login! \033[1;33m•\033[1;91m•\033[1;37m""")
 
 logo = """\033[1;37m
-   ______\033[1;91m   __ __ \033[1;37m            __  
-  / ____/ \033[1;91m / // /  \033[1;37m  _____   / /__
- / /      \033[1;91m/ // /_ \033[1;37m  / ___/  / //_/
-/ /___   \033[1;91m/__  __/\033[1;37m  / /__   / ,< Au \033[1;36m• \033[1;32mNdrii Tzy.\033[1;37m
-\____/   \033[1;91m  /_/   \033[1;37m  \___/  /_/|_|\n"""
+   ______  __ __           __  
+  / ____/ / // /   _____  / /__
+ / /     / // /   / ___/ / //_/
+/ /___  /__  __/ / /__  / ,< Au \033[1;36m• \033[1;32mNdrii Tzy\033[1;37m
+\____/    /_/    \___/ /_/|_|\n
 
 
 host="https://mbasic.facebook.com"
@@ -363,13 +363,13 @@ def menu():
   print("\033[0;96m\033[0;97m [\033[1;36m01\033[1;37m] Crack ID Dari Publik/Frandles")
   print("\033[0;96m\033[0;97m [\033[1;36m02\033[1;37m] Crack ID Dari Polowers")
   print("\033[0;96m\033[0;97m [\033[1;36m03\033[1;37m] Crack ID Dari Likers")
-  print("\033[0;96m\033[0;97m [\033[1;36m04\033[1;37m] (\033[1;36mCrack Dari Target ID\033[1;37m)")
+  print("\033[0;96m\033[0;97m [\033[1;36m04\033[1;37m] \033[1;36mCrack Dari Target ID\033[1;37m")
   print("\033[0;96m\033[0;97m [\033[1;36m05\033[1;37m] Crack dengan Emali ")
   print("\033[0;96m\033[0;97m [\033[1;36m06\033[1;37m] Crack Dengan Nomor Telepon")
   print("\033[0;96m\033[0;97m [\033[1;36m07\033[1;37m] Check Hasil Crack")
   print("\033[0;96m\033[0;97m [\033[1;36m08\033[1;37m] Check Opsi CheckPoint ")
-  print("\033[0;96m\033[0;97m [\033[1;36m09\033[1;37m] %s(%sGanti User agent%s ) "%(p,o,p))
-  print("\033[0;96m\033[0;97m [\033[1;36m00\033[1;37m] (\033[1;31mLogout\033[1;31m)")
+  print("\033[0;96m\033[0;97m [\033[1;36m09\033[1;37m] %s%sGanti User agent%s  "%(p,o,p))
+  print("\033[0;96m\033[0;97m [\033[1;36m00\033[1;37m] \033[1;31mLogout\033[1;31m")
   print ""
   r=raw_input("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Pilih: ")
   if r=="":print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] isi Yang Benar").format(R,N);menu()
