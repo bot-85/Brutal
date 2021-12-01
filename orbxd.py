@@ -127,9 +127,9 @@ def login():
     os.system('clear')
     print banner
     print("\033[0;96m"+50*"-")
-    print ' \x1b[0;97m[\x1b[0;96m1\x1b[0;97m] Login With Email & Pass (\033[1;36mRawan CheckPoint\033[1;37m)'
-    print ' \x1b[0;97m[\x1b[0;96m2\x1b[0;97m] Login With Token Facebook  (\033[1;36mRecommended\033[1;37m)'
-    print ' \x1b[0;97m[\x1b[0;96m3\x1b[0;97m] Login With Cookie Facebook (\033[1;36mRecommended\033[1;37m)'
+    print ' \x1b[0;97m[\x1b[0;96m1\x1b[0;97m] Login via Facebook (\033[1;36mRawan CheckPoint\033[1;37m)'
+    print ' \x1b[0;97m[\x1b[0;96m2\x1b[0;97m] Login via token  (\033[1;36mRecommended\033[1;37m)'
+    print ' \x1b[0;97m[\x1b[0;96m3\x1b[0;97m] Login via Cokies (\033[1;36mRecommended\033[1;37m)'
     print ' \x1b[0;97m[\x1b[0;96m4\x1b[0;97m] Check Video Cara Ambil Token/Cookie fb '
     print ' \x1b[0;97m[\x1b[0;96m0\x1b[0;97m] Exite Programs'
     sek = raw_input('\n \x1b[0;97m[\x1b[0;96m•\x1b[0;97m] Choose : ')
@@ -360,16 +360,16 @@ def menu():
   print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Version      : \033[1;32mElite 1.0")
   print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Expired      : \033[1;32m-")
   print("\033[0;96m"+50*"-")
-  print("\033[0;96m\033[0;97m [\033[1;36m1\033[1;37m] Crack ID From Friendlist/Public")
-  print("\033[0;96m\033[0;97m [\033[1;36m2\033[1;37m] Crack ID From Followers")
-  print("\033[0;96m\033[0;97m [\033[1;36m3\033[1;37m] Crack ID From Likes")
-  print("\033[0;96m\033[0;97m [\033[1;36m4\033[1;37m] Crack From ID Target (\033[1;36mTergantung Hoki Kalian\033[1;37m)")
-  print("\033[0;96m\033[0;97m [\033[1;36m5\033[1;37m] Crack With Email ")
-  print("\033[0;96m\033[0;97m [\033[1;36m6\033[1;37m] Crack With Number Phone")
-  print("\033[0;96m\033[0;97m [\033[1;36m7\033[1;37m] Cek Result Crack")
-  print("\033[0;96m\033[0;97m [\033[1;36m8\033[1;37m] Cek Opsi Sesi Account Cp ")
-  print("\033[0;96m\033[0;97m [\033[1;36m9\033[1;37m] Setting Ua %s(%s User agent%s ) "%(p,o,p))
-  print("\033[0;96m\033[0;97m [\033[1;36m0\033[1;37m] Logout")
+  print("\033[0;96m\033[0;97m [\033[1;36m01\033[1;37m] Crack ID Dari Friendlist/Public")
+  print("\033[0;96m\033[0;97m [\033[1;36m02\033[1;37m] Crack ID Dari Followers")
+  print("\033[0;96m\033[0;97m [\033[1;36m03\033[1;37m] Crack ID Dari Likes")
+  print("\033[0;96m\033[0;97m [\033[1;36m04\033[1;37m] (\033[1;36mCrack ID Target\033[1;37m)")
+  print("\033[0;96m\033[0;97m [\033[1;36m05\033[1;37m] Crack Dari Email ")
+  print("\033[0;96m\033[0;97m [\033[1;36m06\033[1;37m] Crack Dari Number Phone")
+  print("\033[0;96m\033[0;97m [\033[1;36m07\033[1;37m] Check Hasil Crack")
+  print("\033[0;96m\033[0;97m [\033[1;36m08\033[1;37m] Check opsi CheckPoint ")
+  print("\033[0;96m\033[0;97m [\033[1;36m09\033[1;37m] %s(%sGanti User agent%s ) "%(p,o,p))
+  print("\033[0;96m\033[0;97m [\033[1;36m00\033[1;37m] \033[1;36mLogout\033[1;36m")
   print ""
   r=raw_input("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Choose: ")
   if r=="":print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] isi Yang Benar").format(R,N);menu()
