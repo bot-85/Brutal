@@ -34,10 +34,10 @@ else:
 
 def banner():
     print("""\x1b[0;32m   ______     __ __       __
-\x1b[0;32m  / ____/____/ // / _____/ /__\x1b[0;32m|| SELAMAT
-\x1b[0;32m / /   / ___/ // /_/ ___/ //_/\x1b[0;32m|| DATANG
-\x1b[0;33m/ /___/ /  /__  __/ /__/   |  \x1b[0;33m|| SELAMAT
-\x1b[0;33m\____/_/\x1b[0;36mV2.0 \x1b[0;33m/_/  \___/_/|_|  \x1b[0;33m|| MEMAKAI
+\x1b[0;32m  / ____/____/ // / _____/ /__\x1b[0;32m|| INDONESIA
+\x1b[0;32m / /   / ___/ // /_/ ___/ //_/\x1b[0;32m|| INDIAN
+\x1b[0;33m/ /___/ /  /__  __/ /__/   |  \x1b[0;33m|| PAKISTAN
+\x1b[0;33m\____/_/\x1b[0;36mV2.0 \x1b[0;33m/_/  \___/_/|_|  \x1b[0;33m|| AMERIKA
 \x1b[0;37m------------------------------------------------------
 \x1b[0;33m[\x1b[1;97m>\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
 \x1b[0;33m[\x1b[1;97m>\x1b[0;33m]\x1b[0;37m Version  : \x1b[0;32mV5.2
@@ -192,7 +192,7 @@ def logs():
   os.system("clear")
   banner()
   print((k+"\n["+p+"01"+k+"]"+p+" \x1b[0;33mLogin Via Token"))
-  print((k+"["+p+"02"+k+"]"+p+" \x1b[0;33mVia Cookies"))
+  print((k+"["+p+"02"+k+"]"+p+" \x1b[0;33mLogin Via Cookies"))
   print((k+"["+p+"00"+k+"]"+p+" \x1b[0;31mLog Out"))
   sek=input(k+"\n["+p+"•"+k+"]"+p+" Pilih : \x1b[0;33m")
   if sek=="":
@@ -340,7 +340,7 @@ def menu():
     choose_menu()
 
 def choose_menu():
-	r=input(k+"\n"+p+""+k+""+p+"Pilih : \x1b[0;33m")
+	r=input(k+"\n"+p+""+k+""+p+"  Pilih : \x1b[0;33m")
 	if r=="":
 		print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
 		menu()
