@@ -1,2 +1,2 @@
-# Brutal
-Wow hamdallll
+# Hamdall
+Minek di kedoooo
