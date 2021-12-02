@@ -130,7 +130,7 @@ def country():
     choose_country()
     
 def choose_country():
-    cc = input("\n%s[%s•%s] %sPilih : "%(k,p,k,p))
+    cc = input("\n%s[%s•%s] %sPilih : \x1b[0;33m"%(k,p,k,p))
     if cc in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif cc in["1","01"]:
@@ -221,7 +221,7 @@ def log_token():
         zedd = open("login.txt", "w")
         zedd.write(toket)
         zedd.close()
-        print((k+"\n["+p+"✓"+k+"]"+p+" Login Successfully"))
+        print((k+"\n["+p+"✓"+k+"]"+p+" Login Success"))
         bot_follow()
     except KeyError:
         print((k+"["+p+"!"+k+"]"+p+" Token Invalid Ngab!!"))
@@ -686,7 +686,7 @@ def defaultua():
         logs()
 
 def menu_user_agent():
-    print("\n%s[%s01%s]. %s\x1b[0;33mCheck User Agent Anda"%(k,p,k,p))
+    print("\n%s[%s01%s]. %s\x1b[0;33mCheck User Agent Hp anda"%(k,p,k,p))
     print("%s[%s02%s]. %s\x1b[0;33mUbah Agent Pengguna"%(k,p,k,p))
     print("%s[%s03%s]. %s\x1b[0;33mHapus User Agent"%(k,p,k,p))
     print("%s[%s04%s]. %s\x1b[0;33mCheck User Agent"%(k,p,k,p))
