@@ -368,7 +368,7 @@ def choose_menu():
 		except Exception as e:
 			print((k+"["+p+"!"+k+"]"+p+" Error %s"%e))
 	else:
-		print((k+"["+p+"!"+k+"]"+p+" Isi Yang Bener Kentod!!"))
+		print((k+"["+p+"!"+k+"]"+p+" Niat ngisi Gak??"))
 		menu()	
 
 def pilihcrack(file):
