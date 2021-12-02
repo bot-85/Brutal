@@ -323,7 +323,7 @@ def menu():
     os.system("clear")
     banner()
     print((k+"\n[ "+p+"Selamat Datang "+a["name"]+k+" ]"+p))
-    print((k+"\n["+p+"*."+k+"]"+p+" Id pengguna  : "+\x1b[0;33mid))
+    print((k+"\n["+p+"*."+k+"]"+p+" Id pengguna  : "+mid))
     print((k+"["+p+"*."+k+"]"+p+" IP address.  : "+\x1b[0;33mip))
     print((k+"["+p+"*."+k+"]"+p+" Status       : "+o+"Premium"+b))
     print((k+"["+p+"*."+k+"]"+p+" Join         : "+\x1b[0;33mdurasi))
