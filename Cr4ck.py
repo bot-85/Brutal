@@ -322,7 +322,7 @@ def menu():
         negara = "None"
     os.system("clear")
     banner()
-    print((k+"\n[ "+p*."Selamat Datang "+a["name"]+k+" ]"+p))
+    print((k+"\n[ "+p+"Selamat Datang "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"*."+k+"]"+p+" Id pengguna : "+id))
     print((k+"["+p+"*."+k+"]"+p+" IP address.  : "+ip))
     print((k+"["+p+"*."+k+"]"+p+" Status       : "+o+"Premium"+b))
