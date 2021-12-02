@@ -36,7 +36,7 @@ def banner():
     print("""\x1b[0;34m   ______     __ __       __
 \x1b[0;34m  / ____/____/ // / _____/ /__\x1b[0;34m|| SELAMAT
 \x1b[0;34m / /   / ___/ // /_/ ___/ //_/\x1b[0;34m|| DATANG
-\x1b[0;34m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;34m|| SELAMAT
+\x1b[0;34m/ /___/ /  /__  __/ /__/ ,|   \x1b[0;34m|| SELAMAT
 \x1b[0;34m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;34m|| MEMAKAI
 \x1b[0;37m------------------------------------------------------
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
@@ -328,14 +328,14 @@ def menu():
     print((k+"["+p+"+"+k+"]"+p+" Status       : "+o+"Premium"+b))
     print((k+"["+p+"+"+k+"]"+p+" Join         : "+durasi))
     print((k+"["+p+"+"+k+"]"+p+" Crack        : "+negara))
-    print((k+"\n["+p+"01"+k+"]"+p+". Crack ID Dari Publik/Followers"))
-    print((k+"["+p+"02"+k+"]"+p+". Crack ID Dari Followers"))
-    print((k+"["+p+"03"+k+"]"+p+". Crack ID Dari Like Postingan"))
-    print((k+"["+p+"04"+k+"]"+p+". Crack Melalui Nomor Telepon"))
-    print((k+"["+p+"05"+k+"]"+p+". Crack Melalui Email"))
-    print((k+"["+p+"06"+k+"]"+p+". Ambil Data Target"))
-    print((k+"["+p+"07"+k+"]"+p+". Check Hasil Crack"))
-    print((k+"["+p+"08"+k+"]"+p+". Ganti User Agent"))
+    print((k+"\n["+p+"01"+k+"]"+p+". \x1b[0;33mCrack ID Dari Publik/Followers"))
+    print((k+"["+p+"02"+k+"]"+p+". \x1b[0;33mCrack ID Dari Followers"))
+    print((k+"["+p+"03"+k+"]"+p+". \x1b[0;33mCrack ID Dari Like Postingan"))
+    print((k+"["+p+"04"+k+"]"+p+". \x1b[0;33mCrack Melalui Nomor Telepon"))
+    print((k+"["+p+"05"+k+"]"+p+". \x1b[0;33mCrack Melalui Email"))
+    print((k+"["+p+"06"+k+"]"+p+". \x1b[0;33mAmbil Data Target"))
+    print((k+"["+p+"07"+k+"]"+p+". \x1b[0;33mCheck Hasil Crack"))
+    print((k+"["+p+"08"+k+"]"+p+". \x1b[0;33mGanti User Agent"))
     print((k+"["+p+"00"+k+"]"+p+". \x1b[0;31mLog Out"))
     choose_menu()
 
@@ -685,11 +685,11 @@ def defaultua():
         logs()
 
 def menu_user_agent():
-    print("\n%s[%s01%s] %sGet User Agent"%(k,p,k,p))
-    print("%s[%s02%s] %sChange User Agent"%(k,p,k,p))
-    print("%s[%s03%s] %sDelete User Agent"%(k,p,k,p))
-    print("%s[%s04%s] %sCheck User Agent"%(k,p,k,p))
-    print("%s[%s00%s] %sBack/Kembali"%(k,p,k,p))
+    print("\n%s[%s01%s]. %sCheck User Agent Anda"%(k,p,k,p))
+    print("%s[%s02%s]. %sUbah Agent Pengguna"%(k,p,k,p))
+    print("%s[%s03%s]. %sHapus User Agent"%(k,p,k,p))
+    print("%s[%s04%s]. %sCheck User Agent"%(k,p,k,p))
+    print("%s[%s00%s]. %sKembali"%(k,p,m,p))
     pilih_menu_user_agent()
 
 def pilih_menu_user_agent():
