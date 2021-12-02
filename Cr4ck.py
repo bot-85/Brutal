@@ -372,12 +372,12 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"01"+k+"]"+p+" Api ("+k+"Fast/Cepat"+p+")"))
-  print((k+"["+p+"02"+k+"]"+p+" Api + TTL ("+k+"Fast + TTL "+p+")"))
-  print((k+"["+p+"03"+k+"]"+p+" Mbasic ("+k+"Slow And Recommended"+p+")"))
-  print((k+"["+p+"04"+k+"]"+p+" Mbasic + TTL ("+k+"Slow + TTL"+p+")"))
-  print((k+"["+p+"05"+k+"]"+p+" Free Facebook ("+k+"Super Slow/Sangat Lambat"+p+")"))
-  krah=input(k+"\n["+p+"•"+k+"]"+p+"Choose : \x1b[0;33m")
+  print((k+"\n["+p+"01"+k+"]"+p+" ("+k+"API + CRACK"+p+")"))
+  print((k+"["+p+"02"+k+"]"+p+". ("+k+"API + TTL "+p+")"))
+  print((k+"["+p+"03"+k+"]"+p+". ("+k+"MBASIC + RECOMMENDED"+p+")"))
+  print((k+"["+p+"04"+k+"]"+p+". ("+k+"MBASIC + TTL"+p+")"))
+  print((k+"["+p+"05"+k+"]"+p+". ("+k+"FREE FACEBOOK"+p+")"))
+  krah=input(k+"\n["+p+"•"+k+"]"+p+"Pilih : \x1b[0;33m")
   if krah in[""]:
     print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
     pilihcrack(file)
