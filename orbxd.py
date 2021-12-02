@@ -37,12 +37,12 @@ def banner():
 \x1b[0;34m  / ____/____/ // / _____/ /__\x1b[0;34m|| SELAMAT
 \x1b[0;34m / /   / ___/ // /_/ ___/ //_/\x1b[0;34m|| DATANG
 \x1b[0;34m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;34m|| SELAMAT
-\x1b[0;34m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;37m|| MEMAKAI
-\x1b[0;37m------------------------------------------------------------------------------------------------
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : BINTANG-XD
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : Github.com/lupaa
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : Bintang Tzy
-\x1b[0;37m------------------------------------------------------------------------------------------------
+\x1b[0;34m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;34m|| MEMAKAI
+\x1b[0;37m------------------------------------------------------------------------
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : \x1b[0;32mGithub.com/lupaa
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : \x1b[0;32mBintang Tzy
+\x1b[0;37m------------------------------------------------------------------------
 """)
 host="https://mbasic.facebook.com"
 ok = []
@@ -324,10 +324,10 @@ def menu():
     banner()
     print((k+"\n[ "+p+"Selamat Datang "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"+"+k+"]"+p+" Id pengguna : "+id))
-    print((k+"["+p+"+"+k+"]"+p+" IP address : "+ip))
-    print((k+"["+p+"+"+k+"]"+p+" Status  : "+o+"Premium"+b))
-    print((k+"["+p+"+"+k+"]"+p+" Join  : "+durasi))
-    print((k+"["+p+"+"+k+"]"+p+" Crack   : "+negara))
+    print((k+"["+p+"+"+k+"]"+p+" IP address.   : "+ip))
+    print((k+"["+p+"+"+k+"]"+p+" Status        : "+o+"Premium"+b))
+    print((k+"["+p+"+"+k+"]"+p+" Join          : "+durasi))
+    print((k+"["+p+"+"+k+"]"+p+" Crack         : "+negara))
     print((k+"\n["+p+"01"+k+"]"+p+" Crack ID Dari Publik/Followers"))
     print((k+"["+p+"02"+k+"]"+p+" Crack ID Dari Followers"))
     print((k+"["+p+"03"+k+"]"+p+" Crack ID Dari Like Postingan"))
