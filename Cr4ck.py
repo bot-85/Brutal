@@ -651,7 +651,7 @@ def generate(text):
 			else:
 				results.append(i+"123")
 				results.append(i+"12345")
-				results.append()
+				results.append(i)
 				if "id" in ct:
 					results.append("sayang")
 					results.append("bismillah")
@@ -672,6 +672,7 @@ def generate(text):
 					results.append("iloveyou")
 					results.append("passwords")
 	return results
+
 
 ### USER AGENT ###
 
