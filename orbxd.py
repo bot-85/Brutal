@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
-# Bintang TZY
+# BintangTZY
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,ipaddress
-from random import
+from random import randint
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from datetime import date
 from datetime import datetime
