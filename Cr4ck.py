@@ -37,11 +37,11 @@ def banner():
 \x1b[0;34m  / ____/____/ // / _____/ /__\x1b[0;34m|| SELAMAT
 \x1b[0;34m / /   / ___/ // /_/ ___/ //_/\x1b[0;34m|| DATANG
 \x1b[0;34m/ /___/ /  /__  __/ /__/ , |  \x1b[0;34m|| SELAMAT
-\x1b[0;34m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;34m|| MEMAKAI
+\x1b[0;34m\____/_/\x1b[0;36mV2.0 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;34m|| MEMAKAI
 \x1b[0;37m------------------------------------------------------
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : \x1b[0;32mGithub.com/lupaa
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : \x1b[0;32mBintang Tzy
+\x1b[0;33m[\x1b[1;97m>\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
+\x1b[0;33m[\x1b[1;97m>\x1b[0;33m]\x1b[0;37m Version  : \x1b[0;32mV5.2
+\x1b[0;33m[\x1b[1;97m>\x1b[0;33m]\x1b[0;37m Facebook : \x1b[0;32mBintang Tzy
 \x1b[0;37m------------------------------------------------------
 """)
 host="https://mbasic.facebook.com"
@@ -1088,9 +1088,9 @@ class bapi:
     self.loop = 0
     self.krah(isifile)
   def krah(self,isifile):
-    print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan PasswordManual [d/m]"))
+    print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
     while True:
-      f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
+      f=input(k+"["+p+"•"+k+"]"+p+" Choose : \x1b[0;33m")
       if f in[""," "]:
         print((k+"["+p+"!"+k+"]"+p+" Nomor Invalid Kentod!!"))
         continue
