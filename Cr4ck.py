@@ -853,7 +853,7 @@ class crack:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+				print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -865,7 +865,7 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+			print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -940,7 +940,7 @@ class crackttl:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+				print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -952,7 +952,7 @@ class crackttl:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+			print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -1042,7 +1042,7 @@ class crackffb:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+				print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -1054,7 +1054,7 @@ class crackffb:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+			print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -1117,7 +1117,7 @@ class bapi:
         except Exception as e:
           print(("  %s"%e))
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
         ThreadPool(30).map(self.brute,self.fl)
         #os.remove(self.apk)
         exit()
@@ -1139,7 +1139,7 @@ class bapi:
             except:continue
         except:
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
         ThreadPool(30).map(self.brute,self.fl)
         os.remove(self.apk)
         exit()
@@ -1227,7 +1227,7 @@ class bapittl:
         except Exception as e:
           print(("  %s"%e))
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
         ThreadPool(30).map(self.brute,self.fl)
         #os.remove(self.apk)
         exit()
@@ -1249,7 +1249,7 @@ class bapittl:
             except:continue
         except:
           continue
-        print((k+"\n["+p+"+"+k+"]"+p+" Crack Running..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
+        print((k+"\n["+p+"+"+k+"]"+p+" Crack Sedang Berlangsung..."+k+"\n["+p+"+"+k+"]"+p+" Akun [OK] Tersimpan di : ok.txt"+k+"\n["+p+"+"+k+"]"+p+" Akun [CP] Tersimpan Di : cp.txt"+k+"\n["+p+"#"+k+"]"+p+" Gunakan mode pesawat (3 detik) setiap 5 menit\n"))
         ThreadPool(30).map(self.brute,self.fl)
         os.remove(self.apk)
         exit()
