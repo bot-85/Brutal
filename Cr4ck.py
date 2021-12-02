@@ -36,7 +36,7 @@ def banner():
     print("""\x1b[0;34m   ______     __ __       __
 \x1b[0;34m  / ____/____/ // / _____/ /__\x1b[0;34m|| SELAMAT
 \x1b[0;34m / /   / ___/ // /_/ ___/ //_/\x1b[0;34m|| DATANG
-\x1b[0;34m/ /___/ /  /__  __/ /__/ , |   \x1b[0;34m|| SELAMAT
+\x1b[0;34m/ /___/ /  /__  __/ /__/ , |  \x1b[0;34m|| SELAMAT
 \x1b[0;34m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;34m|| MEMAKAI
 \x1b[0;37m------------------------------------------------------
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
@@ -126,7 +126,7 @@ def country():
     print("%s[%s01%s] %s\x1b[0;33mINDONESIA"%(k,p,k,p))
     print("%s[%s02%s] %s\x1b[0;33mINDIAN"%(k,p,k,p))
     print("%s[%s03%s] %s\x1b[0;33mPAKISTAN"%(k,p,k,p))
-    print("%s[%s04%s] %s\x1b[0;37mAMERIKA"%(k,p,k,p))
+    print("%s[%s04%s] %s\x1b[0;33mAMERIKA"%(k,p,k,p))
     choose_country()
     
 def choose_country():
@@ -191,10 +191,10 @@ def choose_country():
 def logs():
   os.system("clear")
   banner()
-  print((k+"\n["+p+"01"+k+"]"+p+" Login Via Token"))
-  print((k+"["+p+"02"+k+"]"+p+" Login Via Cookies"))
-  print((k+"["+p+"00"+k+"]"+p+" Log Out"))
-  sek=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+  print((k+"\n["+p+"01"+k+"]"+p+" \x1b[0;33mLogin Via Token"))
+  print((k+"["+p+"02"+k+"]"+p+" \x1b[0;33mVia Cookies"))
+  print((k+"["+p+"00"+k+"]"+p+" \x1b[0;31mLog Out"))
+  sek=input(k+"\n["+p+"•"+k+"]"+p+" Pilih : ")
   if sek=="":
     print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     logs()
