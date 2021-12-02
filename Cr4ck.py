@@ -36,7 +36,7 @@ def banner():
     print("""\x1b[0;32m   ______     __ __       __
 \x1b[0;32m  / ____/____/ // / _____/ /__\x1b[0;32m|| SELAMAT
 \x1b[0;32m / /   / ___/ // /_/ ___/ //_/\x1b[0;32m|| DATANG
-\x1b[0;33m/ /___/ /  /__  __/ /__/ , |  \x1b[0;33m|| SELAMAT
+\x1b[0;33m/ /___/ /  /__  __/ /__/   |  \x1b[0;33m|| SELAMAT
 \x1b[0;33m\____/_/\x1b[0;36mV2.0 \x1b[0;33m/_/  \___/_/|_|  \x1b[0;33m|| MEMAKAI
 \x1b[0;37m------------------------------------------------------
 \x1b[0;33m[\x1b[1;97m>\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
@@ -340,7 +340,7 @@ def menu():
     choose_menu()
 
 def choose_menu():
-	r=input(k+"\n["+p+"•"+k+"]"+p+"Pilih : \x1b[0;33m")
+	r=input(k+"\n"+p+""+k+""+p+"Pilih : \x1b[0;33m")
 	if r=="":
 		print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
 		menu()
