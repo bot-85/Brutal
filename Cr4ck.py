@@ -36,7 +36,7 @@ def banner():
     print("""\x1b[0;34m   ______     __ __       __
 \x1b[0;34m  / ____/____/ // / _____/ /__\x1b[0;34m|| SELAMAT
 \x1b[0;34m / /   / ___/ // /_/ ___/ //_/\x1b[0;34m|| DATANG
-\x1b[0;34m/ /___/ /  /__  __/ /__/ ,|   \x1b[0;34m|| SELAMAT
+\x1b[0;34m/ /___/ /  /__  __/ /__/ , |   \x1b[0;34m|| SELAMAT
 \x1b[0;34m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;34m|| MEMAKAI
 \x1b[0;37m------------------------------------------------------
 \x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : \x1b[0;32mBINTANG-XD
@@ -685,15 +685,15 @@ def defaultua():
         logs()
 
 def menu_user_agent():
-    print("\n%s[%s01%s]. %sCheck User Agent Anda"%(k,p,k,p))
-    print("%s[%s02%s]. %sUbah Agent Pengguna"%(k,p,k,p))
-    print("%s[%s03%s]. %sHapus User Agent"%(k,p,k,p))
-    print("%s[%s04%s]. %sCheck User Agent"%(k,p,k,p))
-    print("%s[%s00%s]. %sKembali"%(k,p,m,p))
+    print("\n%s[%s01%s]. %s\x1b[0;33mCheck User Agent Anda"%(k,p,k,p))
+    print("%s[%s02%s]. %s\x1b[0;33mUbah Agent Pengguna"%(k,p,k,p))
+    print("%s[%s03%s]. %s\x1b[0;33mHapus User Agent"%(k,p,k,p))
+    print("%s[%s04%s]. %s\x1b[0;33mCheck User Agent"%(k,p,k,p))
+    print("%s[%s00%s]. %s\x1b[0;31mKembali"%(k,p,k,p))
     pilih_menu_user_agent()
 
 def pilih_menu_user_agent():
-    pmu = input("\n%s[%s•%s] %sChoose : "%(k,p,k,p))
+    pmu = input("\n%s[%s•%s] %sPilih : "%(k,p,k,p))
     if pmu in[""]:
         print((k+"\n["+p+"!"+k+"]"+p+" Fill In The Correct"))
     elif pmu in["1","01"]:
