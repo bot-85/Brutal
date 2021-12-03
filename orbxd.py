@@ -127,11 +127,11 @@ def login():
     os.system('clear')
     print banner
     print("\033[0;96m"+50*"-")
-    print ' \x1b[0;97m[\x1b[0;96m1\x1b[0;97m] \033[1;36mLogin Via no dan sandi\033[1;37m)'
+    print ' \x1b[0;97m[\x1b[0;96m1\x1b[0;97m] \033[1;36mLogin Via no dan sandi\033[1;37m'
     print ' \x1b[0;97m[\x1b[0;96m2\x1b[0;97m] \033[1;36mLogin Via token\033[1;37m'
     print ' \x1b[0;97m[\x1b[0;96m3\x1b[0;97m] \033[1;36mLogin via Cokies\033[1;37m'
-    print ' \x1b[0;97m[\x1b[0;96m4\x1b[0;97m] Check Video Cara Ambil Token/Cookie fb '
-    print ' \x1b[0;97m[\x1b[0;96m0\x1b[0;97m] Exite'
+    print ' \x1b[0;97m[\x1b[0;96m4\x1b[0;97m] \033[1;36mTutorial Ambil Token/Cokies\033[1;37m'
+    print ' \x1b[0;97m[\x1b[0;96m0\x1b[0;97m] \033[1;31mExite\033[1;31m'
     sek = raw_input('\n \x1b[0;97m[\x1b[0;96m•\x1b[0;97m] Choose : ')
     if sek=="":
         print("\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x80\xa2\x1b[1;37m] Keyword Salah").format(R,N);login()
