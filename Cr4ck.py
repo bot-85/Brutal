@@ -325,7 +325,7 @@ def menu():
     print((k+"\n[ "+p+"Selamat Datang "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"*."+k+"]"+p+" Id pengguna  : \x1b[0;33m"+id))
     print((k+"["+p+"*."+k+"]"+p+" IP address.  : \x1b[0;33m"+ip))
-    print((k+"["+p+"*."+k+"]"+p+" Status       : \x1b[0;32m"+Premium))
+    print((k+"["+p+"*."+k+"]"+p+" Status Anda  : "+o+"Premium"+b))
     print((k+"["+p+"*."+k+"]"+p+" Join         : \x1b[0;33m"+durasi))
     print((k+"["+p+"*."+k+"]"+p+" Crack        : \x1b[0;33m"+negara))
     print((k+"\n["+p+"01"+k+"]"+p+". \x1b[0;33mCrack ID Dari Publik/Followers"))
