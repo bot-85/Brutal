@@ -92,16 +92,16 @@ banner = ("""\033[1;37m
    ______\033[1;91m   __ __ \033[1;37m            __  
   / ____/ \033[1;91m / // /  \033[1;37m  _____   / /__
  / /      \033[1;91m/ // /_ \033[1;37m  / ___/  / //_/
-/ /___   \033[1;91m/__  __/\033[1;37m  / /__   / ,< Au \033[1;36m• \033[1;32mDekura-X.\033[1;37m
+/ /___   \033[1;91m/__  __/\033[1;37m  / /__   /   |
 \____/   \033[1;91m  /_/   \033[1;37m  \___/  /_/|_|\n
-  \033[1;33m•\033[1;91m•\033[1;37m New Tools Hack Facebook Random \033[1;33m•\033[1;91m•\033[1;37m
+  \033[1;33m•\033[1;91m•\033[1;37m Selamat datang di tools ini \033[1;33m•\033[1;91m•\033[1;37m
  \033[1;33m•\033[1;91m•\033[1;37m Gunakan Akun Tumbal Untuk Login! \033[1;33m•\033[1;91m•\033[1;37m""")
 
 logo = """\033[1;37m
    ______\033[1;91m   __ __ \033[1;37m            __  
   / ____/ \033[1;91m / // /  \033[1;37m  _____   / /__
  / /      \033[1;91m/ // /_ \033[1;37m  / ___/  / //_/
-/ /___   \033[1;91m/__  __/\033[1;37m  / /__   / ,< Au \033[1;36m• \033[1;32mDekura-X.\033[1;37m
+/ /___   \033[1;91m/__  __/\033[1;37m  / /__   /   |
 \____/   \033[1;91m  /_/   \033[1;37m  \___/  /_/|_|\n"""
 
 def clear():
@@ -122,7 +122,7 @@ def login():
     global token
     os.system("clear");print(banner)
     print("\033[1;96m"+50*"-")
-    print(" %s[%s1%s] Login via token\n%s [%s2%s] Login via cookie"%(p,b,p,p,b,p))
+    print(" %s[%s01%s] Login via token\n%s [%s02%s] Login via cookie"%(p,b,p,p,b,p))
     pil_log=raw_input("\n%s [%s•%s] Choose: "%(p,b,p))
     if pil_log in ["1","01"]:
         log_token()
@@ -191,16 +191,16 @@ def menu():
     print("\033[1;96m"+50*"-")
     print("%s [%s•%s] Nickname      : %s "%(p,b,p,nick));print("%s [%s•%s] ID facebook   : %s "%(p,b,p,idme));print("%s [%s•%s] Tanggal lahir : %s %s %s"%(p,b,p,day,month,year))
     print("\033[1;96m"+50*"-")
-    print("\n%s [%s01%s] Crack fb dari list teman sendiri "%(p,b,p))
-    print("%s [%s02%s] Crack fb dari list teman publik "%(p,b,p))
-    print("%s [%s03%s] Crack fb dari follower publik "%(p,b,p))
-    print("%s [%s04%s] Crack fb dari like publik"%(p,b,p))
-    print("%s [%s05%s] Crack fb massal publik"%(p,b,p))
-    print("%s [%s06%s] Cek opsi akun sesi hasil crack"%(p,b,p))
-    print("%s [%s07%s] Setting useragent"%(p,b,p))
-    print("%s [%s99%s] Cek hasil crack ok-cp"%(p,b,p))
-    print("%s [%s00%s] Logout dari akun ini"%(p,b,p))
-    pill = raw_input("\n%s [%s•%s] Choose: "%(p,b,p))
+    print("\n%s [%s01%s] CRACK DARI AKUN TUMBAL "%(p,b,p))
+    print("%s [%s02%s] \033[1;36mCRACK ID DARI PUBLIK "%(p,b,p))
+    print("%s [%s03%s] \033[1;36mCRACK ID DARI FOLOWERS "%(p,b,p))
+    print("%s [%s04%s] \033[1;36mCRACK ID DARI POSTINGAN"%(p,b,p))
+    print("%s [%s05%s] \033[1;36mCRACK ID MASALL/BRUTAL"%(p,b,p))
+    print("%s [%s06%s] \033[1;36mCHECK OPSI SESI/CP"%(p,b,p))
+    print("%s [%s07%s] \033[1;36mSETINGS USER AGENT"%(p,b,p))
+    print("%s [%s99%s] \033[1;36mCHECK HASIL CRACK"%(p,b,p))
+    print("%s [%s00%s] \033[1;31mHAPUS TOKEN/COKIES"%(p,b,p))
+    pill = raw_input("\n%s [%s•%s] Choose: \033[1;33m"%(p,b,p))
     if pill in ["1","01"]:
         teman()
         dekura_x()
